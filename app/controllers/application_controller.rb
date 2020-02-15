@@ -13,7 +13,6 @@ private
     @count_microposts = user.microposts.count
     @count_followings = user.followings.count
     @count_followers = user.followers.count
-    @count_favoritings = user.favoritings.count
-    @count_favorited = user.favorited.count
+    @count_likes = user.likes.count
   end
 end
