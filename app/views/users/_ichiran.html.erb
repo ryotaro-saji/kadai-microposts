@@ -7,12 +7,14 @@
           <div>
             <%= favorite.content %>
           </div>
-          
+           <%= render 'favorites/favorite_button', micropost: favorite %>
             
           
         </div>
       </li>
     <% end %>
+    
   </ul>
+ 
   
 <% end %>
